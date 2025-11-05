@@ -1,0 +1,377 @@
+/*reset*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*------------------------------------estilos general index, productos y contacto----------------*/
+
+/*estilos generales*/
+body {
+    background-color: whitesmoke;
+}
+
+/*--------------------------------fin eestilos general index, productos y contacto----------------*/
+
+
+
+/*-------------------------estilo header index, productos y contacto------------------------*/
+
+.navbar {
+    background-color: #E62E93;
+    /*color de fondo mheader*/
+    padding: 5px 5px;
+}
+
+.logotienda {
+    /*estilo para el logo*/
+    width: 4rem;
+    height: 4rem;
+}
+
+.marca,
+.nav-link {
+    /*estilo de las letras*/
+    color: whitesmoke !important;
+    /*anula el color de bostrap*/
+    font-weight: bold;
+    /*negrita*/
+}
+
+.navbar-toggler {
+    /*color menu hamburguesa*/
+    filter: invert(1);
+    border: none;
+}
+
+/*-------------------------------------fin estilo header index, productos y contacto-------------------*/
+
+/*-------------------------------------estilos para main index-------------------*/
+.debito {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.oferta-blackfriday {
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+}
+
+main section div img {
+    border-radius: 2rem;
+}
+
+main .tarjeta,
+main .camion-flete,
+main .progresivos {
+    width: 30px;
+    height: 30px;
+}
+
+main .ticket {
+    margin-top: 1rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    list-style: none;
+}
+
+main .ofertas {
+    text-align: center;
+    font-size: 1rem;
+    list-style: none;
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+
+main ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centra la imagen y el texto horizontalmente */
+    margin-bottom: 0;
+    /* Espacio entre cada oferta */
+    justify-content: center;
+    height: 100%;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+main ul li p {
+    margin-bottom: 0;
+}
+
+main h1 {
+    text-align: center;
+    text-decoration: solid underline #E62E93;
+    padding: 2rem;
+}
+
+main section .grilla {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+main .grilla img {
+    width: 15%;
+    height: 15%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+main .contenedor-grilla {
+    background-color: #FA88D4;
+    border-radius: 1.5rem;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+}
+
+.boton-catalogo p {
+    background-color: #E62E93;
+    margin: 2rem;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    color: whitesmoke;
+}
+
+section .compra img {
+    width: 7rem;
+    height: 7rem;
+}
+
+section {
+    text-align: center;
+}
+
+/*-------------------------------------fin de estilos main index-------------------*/
+
+/*-------------------------------------estilos para main productos-------------------*/
+main .todos-los-productos {
+    /*contenedor*/
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.tarjeta-producto {
+    text-align: center;
+    border: 0.2rem solid #E62E93;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #E58DE4;
+}
+
+.img-producto {
+    width: 50%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.texto-producto {
+    text-align: center;
+    border: #E62E93 solid 1rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.nombre-del-producto {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: whitesmoke;
+}
+
+.descripcion-del-producto {
+    font-size: 0.8rem;
+    color: black;
+}
+
+.precio-producto {
+    font-size: 1.3rem;
+}
+
+.precio-producto-tach {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 1.4rem;
+    margin-bottom: 0.1rem;
+}
+
+/*estilos para main contactos*/
+
+/*------------------------------------fin de estilos para main productos---------*/
+
+/*-------------------------------------estilos para main constactos-------------------*/
+.h3-contacto {
+    margin: 0.8rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/*-----------------------------------fin de estilo para main contacto-------------------*/
+
+/*-------------------------------------estilos para section index-------------------*/
+.carousel-inner {
+    max-height: 300px;
+    /*altura max para moviles*/
+}
+
+.carousel-item img {
+    /*debe coincidir con el max*/
+    height: 300px;
+    object-fit: contain;
+    /*recorta exesos*/
+}
+
+/*-------------------------------------fin de estilos section index-------------------*/
+
+/*-------------------------------------estilos para section contacto-----------------*/
+
+.carousel-inner {
+    max-height: 400px;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: contain;
+    /* Asegura que la imagen se vea entera sin cortarse */
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 10%;
+    bottom: 0.5rem;
+    /* Coloca la caja cerca del borde inferior */
+    left: 10%;
+    padding-top: 0.8rem;
+    /* Espacio superior para que el texto NO se corte */
+    padding-bottom: 0.5rem;
+    /* Espacio inferior */
+
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Fondo oscuro semitransparente */
+    border-radius: 0.5rem;
+}
+
+.carousel-caption h5 {
+    margin-bottom: 0.2rem;
+    font-size: 1.1rem;
+}
+
+.carousel-caption p {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+}
+
+/*-------------------------------------estilos footer index, productos y contacto-------------------*/
+footer {
+    background-color: #FA88D4;
+    padding: 2rem;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+footer .logoinstagram,
+footer .logofacebook {
+    width: 10%;
+    height: 10%;
+}
+
+/*-------------------------------------fin de estilos footer index, productos y contacto-------------------*/
+
+/*-------------------------------------TABLET-----------------------------------*/
+
+@media screen and (min-width: 768px) {
+
+    /*---------- estilos index-------------*/
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        margin-left: auto;
+        gap: 1rem;
+    }
+
+
+    main section .oferta-blackfriday {
+        padding: 1.5rem
+    }
+
+    main section ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 5rem;
+        align-items: stretch;
+        font-size: 2rem;
+    }
+
+    main section ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 3rem;
+        align-items: stretch;
+    }
+
+    main section ul li p {
+        font-size: 1.3rem;
+    }
+
+    main section ul .contenedor-grilla {
+        margin: 1rem 4rem;
+    }
+
+    footer .logoinstagram, footer .logofacebook{
+        width: 2.5rem;
+        height: auto;
+    }
+
+    /*--------------------estilo productos-----------*/
+
+    main .texto-producto{
+        margin: auto;
+    }
+    main .todos-los-productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        padding: 2rem;
+    }
+    .tarjeta-producto {
+        /* Asegura que el contenido interno de la tarjeta se alinee bien */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        height: 100%; /* Ayuda a que todas las tarjetas tengan la misma altura */
+        align-items: center;
+    }
+
+    .img-producto {
+        /* Ajuste de la imagen del producto en la grilla */
+        width: 100%;
+        max-width: 150px;
+    }   
+    .carousel-inner, .carousel-item img { /*cambia el tamaño de la revista mq tablet+*/
+    max-height: 450px;
+    height: 450px; 
+}
+}
