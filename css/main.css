@@ -370,8 +370,26 @@ footer .logofacebook {
         width: 100%;
         max-width: 150px;
     }   
-    .carousel-inner, .carousel-item img { /*cambia el tamaño de la revista mq tablet+*/
+    .carousel-inner, .carousel-item img { /*cambia el tamano de la revista mq tablet+*/
     max-height: 450px;
     height: 450px; 
 }
+
+}
+@media screen and (min-width: 1024px){
+    main, section{
+        padding:0 2rem;
+    }
+
+    .oferta-blackfriday{
+        width: 70%;
+        border-radius: 6rem;
+    }
+
+    main ul{
+        justify-content: space-between;
+        }
+    main section ul{
+        margin: 0 10rem;
+    }
 }
